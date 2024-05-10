@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Navegación */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    margin: 0 10px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para la sección de contenido */
+.content {
+    margin-top: 20px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #222;
+    color: #fff;
+}
