@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         flake.style.left = Math.random() * 100 + "vw"; // Posición aleatoria en el ancho de la ventana
         flake.style.animationDuration = (Math.random() * 5 + 5) + "s"; // Duración de la animación aleatoria entre 5 y 10 segundos
         flake.style.animationDelay = -Math.random() * 10 + "s"; // Retardo de la animación aleatorio entre -10 y 0 segundos
+        flake.style.top = -Math.random() * 100 + "vh"; // Posición inicial arriba de la ventana
         document.querySelector(".snowflakes").appendChild(flake);
     }
 });

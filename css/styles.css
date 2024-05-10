@@ -59,16 +59,6 @@ footer {
     color: #fff;
 }
 
-/* Animación de caída de nieve */
-@keyframes snowfall {
-    0% {
-        transform: translateY(-100%);
-    }
-    100% {
-        transform: translateY(100vh);
-    }
-}
-
 /* Agregamos un fondo semi-transparente para los copos de nieve */
 .snowflakes {
     position: fixed;
@@ -87,5 +77,3 @@ footer {
     border-radius: 50%;
     pointer-events: none; /* Evita que los copos de nieve interfieran con los clics */
 }
-
-
