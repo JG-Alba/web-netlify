@@ -69,13 +69,23 @@ footer {
     }
 }
 
+/* Agregamos un fondo semi-transparente para los copos de nieve */
+.snowflakes {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Evita que los copos de nieve interfieran con los clics */
+}
+
 .snowflake {
     position: absolute;
-    background-color: #fff;
-    width: 5px;
-    height: 5px;
+    background-color: rgba(255, 255, 255, 0.5); /* Copos de nieve semi-transparentes */
+    width: 2px; /* Tamaño reducido de los copos de nieve */
+    height: 2px; /* Tamaño reducido de los copos de nieve */
     border-radius: 50%;
-    animation: snowfall 10s linear infinite;
-    animation-delay: calc(-1 * var(--delay));
+    pointer-events: none; /* Evita que los copos de nieve interfieran con los clics */
 }
+
 
